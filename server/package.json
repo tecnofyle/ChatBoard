@@ -1,0 +1,17 @@
+{
+  "name": "whiteboard-backend",
+  "version": "1.0.0",
+  "description": "WhiteBoard backend server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "shyam_",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3"
+  }
+}
